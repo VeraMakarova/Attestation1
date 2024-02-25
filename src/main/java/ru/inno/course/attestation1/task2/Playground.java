@@ -9,7 +9,7 @@ public class Playground {
         System.out.println("Сегодня " + LocalDate.now());
         WateringProgram wateringProgram = new WateringProgram();
         System.out.println("Влажность почвы сегодня " + wateringProgram.getHumidity() + "%");
-       // Ввод даты последнего полива
+        // Ввод даты последнего полива
         LocalDate lastWateringDate = LocalDate.of(2024, 2, 11);
 
         LocalDate result = wateringProgram.showNextWateringDate(lastWateringDate);
