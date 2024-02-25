@@ -24,6 +24,7 @@ public class Fence {
                 return "Забор слишком короткий";
             }
         }
+
     }
 
 }
