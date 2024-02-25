@@ -10,6 +10,7 @@ public class Fence {
         int userFenceLength = scanner.nextInt();
         String result = checkUserFence(userFenceLength);
         System.out.println(result);
+
     }
 
     public static String checkUserFence(int userFenceLength) {
